@@ -17,7 +17,7 @@ from songline import Sendline
 
 def checkCondition(sym,ticker):
     global btcValue
-    cons = 10000 # constant condition
+    cons = 1000 # constant condition
     last = ticker[sym]['last']
     highestbid = ticker[sym]['highestBid']
     lowerstask = ticker[sym]['lowestAsk']
